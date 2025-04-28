@@ -87,7 +87,7 @@ img {
     text-align: center; 
     display: inline-block;
     transition: 0.3s;
-    transform: translate(10%, 10%);
+    transform: translate(9.5%, 0%);
     }
 
 .card:hover {
