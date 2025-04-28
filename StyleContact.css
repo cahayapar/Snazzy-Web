@@ -14,12 +14,6 @@ body {
     margin: center;  
     padding: 20px; 
     }
-table  {
-    width: 100%; 
-    border-collapse: collapse; 
-    margin-bottom: 0px;
-    position: center; 
-    }
 
 h1 {
     font-size: 24px; 
@@ -45,28 +39,39 @@ a {
     text-align: center;
     }
 
+table  {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 0px;
+    position: center; 
+    border-radius: 220px;
+    }    
+
 table th {
     background-color: #ffffff00; 
     color: #ffffff; 
     padding: 10px; 
     text-align: center;
     border: 1px solid #00000000;
-    border-radius: 20px;
-    width: 33.33333333333333%;
+    border-radius: 30px;
+    width: 100%;
+    margin: auto;
     }
 
 table tr {
     background-color: #ffffff; 
     border:5px solid rgba(0, 0, 0, 0);
     text-align: center; 
-    border-radius: 20px;
+    border-radius: 30px;
+    margin: auto;
     }
 
 table td {
     padding: 10px; 
-    border: 5px solid #000000; 
+    border: 5px solid #00000000; 
     text-align: center; 
-    border-radius: 20px;
+    border-radius: 30px;
+    margin: auto;
     }
 
 img {
@@ -78,21 +83,20 @@ img {
 
 .card {
     background-color: #ffffff; 
-    width: 32.758%;
+    width: 100%;
     border: 1px solid #00000000; 
     border-radius: 20px; 
     padding: 1px; 
     margin: 20px auto; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     text-align: center; 
-    display: inline-block;
     transition: 0.3s; 
     }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
-
+    
 .card-content {
     padding: 5px;
     }
