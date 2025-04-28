@@ -78,7 +78,7 @@ img {
 
 .card {
     background-color: #ffffff; 
-    width: 32.758%;
+    width: 31%;
     border: 1px solid #00000000; 
     border-radius: 20px; 
     padding: 1px; 
@@ -86,7 +86,8 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     text-align: center; 
     display: inline-block;
-    transition: 0.3s; 
+    transition: 0.3s;
+    transform: translate(10%, 10%);
     }
 
 .card:hover {
